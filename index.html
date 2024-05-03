@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search App</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" ></script>
+</head>
+<body>
+    <!-- NAV BAR-->
+    <nav>
+        <label class = "logo">XtreamSearch</label>
+        <ul>
+            <li><a class = "active" href = "#">Home</a></li>
+            <li><a href = "#">About</a></li>
+            <li><a href = "#">Services</a></li>
+            <li><a href = "#">Contact</a></li>
+        </ul>
+        <!-- <lable id=" icon">
+            <i class = "fas fa-bars"></i>
+        </lable> -->
+        <i class="fas fa-bars"></i>
+    </nav>
+
+    <h1>Image Search App</h1>
+    <form action="">
+        <input type = "text" id = "search-input" placeholder="Search Here">
+        <button id = "search-button">Search</button>
+    </form>
+    <div class="search-results">
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1690903250768-42348b9ea244?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" alt="Oceans">
+            <a href="https://unsplash.com/photos/a-red-and-white-light-house-sitting-on-top-of-a-rock-formation-U5VS2IZEyoU" target="_blank">Light House in middle of the Oceans</a>
+
+        </div>
+        <div class="search-result">
+            <img src="https://plus.unsplash.com/premium_photo-1678654259883-4d3cdcc0c853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="Passage">
+            <a href = "https://unsplash.com/photos/a-long-hallway-with-a-red-door-and-white-walls-qm1y4pPf27s">Passage</a>
+        </div>
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1691327815172-4f385df043b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="Passage">
+            <a href = "https://unsplash.com/photos/a-long-hallway-with-a-red-door-and-white-walls-qm1y4pPf27s">Passage</a>
+        </div>
+    </div>
+
+    <button id= "show-more-button">Show More</button>
+    <script src = "script.js"></script>
+</body>
+</html>
